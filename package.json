@@ -1,0 +1,68 @@
+{
+  "name": "react-advanced-filter-builder",
+  "version": "1.0.0",
+  "description": "A powerful React filter component with cascading dropdowns, interdependent API calls, and support for Fetch, Axios, and custom functions",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "filter",
+    "cascading-dropdown",
+    "dependent-select",
+    "typescript",
+    "axios",
+    "fetch",
+    "filter-builder",
+    "advanced-filter",
+    "data-grid",
+    "interdependent",
+    "dynamic-dropdown",
+    "hierarchical-select"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-advanced-filter-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-advanced-filter-builder/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-advanced-filter-builder#readme",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "date-fns": "^3.0.0",
+    "lucide-react": "^0.300.0",
+    "react-select": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
