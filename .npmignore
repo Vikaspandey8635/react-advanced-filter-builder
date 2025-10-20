@@ -1,0 +1,40 @@
+# Exclude source code and configs
+src/
+tsconfig.json
+tsup.config.ts
+
+# Exclude test & examples
+__tests__/
+examples/
+test/
+*.test.ts
+*.spec.tsx
+*.spec.ts
+coverage/
+
+# Exclude development tools
+.vscode/
+.idea/
+.github/
+scripts/
+docs/
+
+# Exclude build cache
+*.log
+*.tmp
+node_modules/
+.DS_Store
+.cache/
+*.tsbuildinfo
+
+# Exclude version control files
+.git/
+.gitignore
+
+# Exclude env and local files
+.env
+.env.local
+.env.development.local
+
+# Optional: include only dist folder if needed
+!dist/
